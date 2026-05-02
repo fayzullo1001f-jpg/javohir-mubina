@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  gap: 15px;
   background: url("./img/one.webp") center/cover no-repeat;
   position: relative;
   text-align: center;
@@ -192,6 +192,11 @@ body {
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 
 .map-box iframe {
@@ -223,7 +228,7 @@ body {
 
 /* BUTTON */
 .map-btn {
-  width: 90%;
+  width: 300px;
   margin: 12px auto;
   padding: 10px;
   border-radius: 20px;

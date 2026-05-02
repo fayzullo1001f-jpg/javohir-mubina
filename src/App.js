@@ -6,7 +6,7 @@ import musicFile from "./music/music_for_videos-wedding-march-music-box-163683 (
 import play from "./img/circle-play-solid-full.svg";
 import pause from "./img/circle-pause-solid-full.svg";
 import cake from "./img/Mens-wedding-ring.jpg";
-import restaurant from "./img/2774127.f80979f42a4b357703de1f25eaa02d87.jpg";
+import restaurant from "./img/da7d1b4bfae1384f047487ef98e8d13ced770206_x3.jpg";
 import ring from "./img/8_4_400637-177119674654053.jpeg";
 import bride from "./img/a1.webp";
 import flower from "./img/flower.jpg"
@@ -210,26 +210,33 @@ function App() {
             <div className="map-box">
               <iframe
                   title="map"
-                  src="https://www.google.com/maps?q=Grand%20Hall%20Tashkent&output=embed"
+                  src="https://www.google.com/maps?q=Yakka+Saroy+Restaurant+Tashkent&output=embed"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
               />
             </div>
 
             {/* IMAGE */}
             <div className="img-box">
-              <img src={restaurant} alt="Grand Hall" />
+              <img src={restaurant} alt="Yakka Saroy" />
+
               <div className="overlay">
-                <h3>Grand Hall</h3>
+                <h3>Yakka Saroy</h3>
                 <p>Toshkent</p>
               </div>
             </div>
 
-            {/* BUTTON */}
-            <button
-                className="map-btn"
-                onClick={() => window.open("https://www.google.com/maps?q=Grand+Hall+Tashkent")}
-            >
-              📍 Lokatsiyani ochish
-            </button>
+            {/* BUTTONS */}
+            <div className="btn-group">
+              <button
+                  className="map-btn"
+                  onClick={() => window.open("https://www.google.com/maps?q=Yakka+Saroy+Restaurant+Tashkent")}
+              >
+                📍 Lokatsiyani ochish
+              </button>
+
+
+            </div>
 
           </div>
 
