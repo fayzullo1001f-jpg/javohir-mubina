@@ -134,13 +134,47 @@ body {
   font-family: 'Playfair Display', serif;
 }
 
-/* TIMER */
 .timer {
-  padding: 10px 15px;
-  background: #2f3e2f;
-  color: #fff;
-  border-radius: 12px;
-  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 14px 20px;
+  border-radius: 18px;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+
+  color: black;
+}
+
+.t-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 55px;
+}
+
+.t-item span {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.t-item small {
+  font-size: 10px;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  margin-top: 2px;
+  text-transform: uppercase;
+}
+
+.timer b {
+  font-size: 18px;
+  opacity: 0.5;
 }
 
 /* CALENDAR */
