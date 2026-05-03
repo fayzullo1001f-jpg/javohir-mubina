@@ -164,7 +164,11 @@ function App() {
               whileTap={{ scale: 0.9 }}
               whileHover={{ scale: 1.1 }}
           >
-            <img src={isPlaying ? pause : play} alt="music" />
+            <img
+                src={isPlaying ? pause : play}
+                alt="music"
+                className="music-icon-img"
+            />
           </motion.div>
 
           <h2>TO‘Y TAKLIFNOMASI</h2>
