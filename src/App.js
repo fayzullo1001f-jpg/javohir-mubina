@@ -174,9 +174,11 @@ function App() {
           <h2>TO‘Y TAKLIFNOMASI</h2>
 
           <p className="invite-text">
-            Assalomu alaykum! <br />
-            Hurmatli mehmonimiz! <br />
-            Sizni nikoh to'yimizga taklif etamiz
+            Assalomu alaykum! <br/>
+            Hurmatli mehmonimiz! <br/>
+            Sizni nikoh to'yimiz munosabati bilan
+            bo'lib o'tadigan "Visol oqshomi"ga
+            taklif etamiz.
           </p>
 
           <div className="div">
